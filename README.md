@@ -21,7 +21,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unite
 
 ## Introduction
 
-This repository provides posterior Samples from the analysis of the first two heavy binary black hole merger events - GW150914 and GW170104 - in [Kumar et al. (2018)]https://arxiv.org/abs/1808.08004. Samples are included for the multimodal numerical relativity surrogate model NRSur7dq2, and the precessing phenomenological model IMRPhenomPv2 (see our paper and references therein for details of these models). Also provided is a Python notebook that demonstrates how to read and visualize our posterior proability density files.
+This repository provides posterior Samples from the analysis of the first two heavy binary black hole merger events - GW150914 and GW170104 - in [Kumar et al. (2018)]https://arxiv.org/abs/1808.08004. Samples are included for the multimodal numerical relativity surrogate model NRSur7dq2, and the precessing phenomenological model IMRPhenomPv2 (see our paper and references therein for details of these models). Also provided is a Python notebook [**UsingPosteriorSamples.ipynb**] that demonstrates how to read and visualize our posterior proability density files.
 
 We encourage use of these data in derivative works. If you use the material provided here, please cite the paper using the reference:
 ```
@@ -43,9 +43,11 @@ We encourage use of these data in derivative works. If you use the material prov
 
 The data are stored in the following files:
 
- 1. []
- 2. []
- 
+ 1. [**NRSur7dq2HM_RestrictedPriors.dat**]: Samples from the multidimensional posterior distribution estimated using the full multimodal NR surrogate model NRSur7dq2.
+ 2. [**NRSur7dq2_RestrictedPriors.dat**]: Samples from the multidimensional posterior distribution estimated using the NR surrogate model NRSur7dq2 with only the dominant l = |m| = 2 modes.
+ 3. [**IMRPhenomPv2_UnRestrictedPriors.dat**]: Samples from the multidimensional posterior distribution estimated using the precessing phenomenological model IMRPhenomPv2.
+ 4. [**IMRPhenomPv2_RestrictedPriors.dat**]: Samples from the multidimensional posterior distribution estimated using the precessing phenomenological model IMRPhenomPv2. In this analysis, sampling priors are restricted to 1 <= q <= 2 and spin magnitudes < 0.8, in order to emulate the priors for NRSur7dq2.
+  
  These files are available for each event in its individual directory.
 
 
