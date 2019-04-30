@@ -10,7 +10,7 @@
 
 **<sup>4</sup>Jet Propulsion Laboratory, California Institute of Technology, Pasadena, CA 91109, USA**
 
-**<sup>5</sup>Albert Einstein Institute, Am Muhlenberg, Golm, Germany**
+**<sup>5</sup>Max Planck Institute for Gravitational Physics (Albert Einstein Institute), Am Mühlenberg 1, 14476 Potsdam-Golm, Germany**
 
 ## License
 
