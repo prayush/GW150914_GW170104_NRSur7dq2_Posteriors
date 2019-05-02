@@ -21,9 +21,9 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unite
 
 ## Introduction
 
-This repository provides posterior Samples from the analysis of the first two heavy binary black hole merger events - GW150914 and GW170104 - in [Kumar et al. (2018)]https://arxiv.org/abs/1808.08004. Samples are included for the multimodal numerical relativity surrogate model NRSur7dq2, and the precessing phenomenological model IMRPhenomPv2 (see our paper and references therein for details of these models). Also provided is a Python notebook [**UsingPosteriorSamples.ipynb**] that demonstrates how to read and visualize our posterior proability density files.
+This repository provides posterior Samples from the analysis of the first two heavy binary black hole merger events - GW150914 and GW170104 - in [Kumar et al. (2018)](https://arxiv.org/abs/1808.08004). Samples are included for the multimodal numerical relativity surrogate model NRSur7dq2, and the precessing phenomenological model IMRPhenomPv2 (see our paper and references therein for details of these models). Also provided is a Python notebook [**UsingPosteriorSamples.ipynb**](https://github.com/prayush/GW150914_GW170104_NRSur7dq2_Posteriors/blob/master/UsingPosteriorSamples.ipynb) that demonstrates how to read and visualize our posterior proability density files.
 
-We encourage use of these data in derivative works. If you use the material provided here, please cite the paper using the reference:
+We encourage use of these data in scientific work. If you use the material provided here, please cite the paper using the reference:
 ```
 @article{Kumar:2018hml,
       author         = "Kumar, Prayush and Blackman, Jonathan and Field, Scott E.
